@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(137, 183, 221);
+}
+
+p {
+    color: rgb(115, 153, 180);
+}
+
+.box {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.avt {
+    height: 190px;
+    background-image: url("https://raw.githubusercontent.com/devshot-dotcom/order-summary-component/5e3a7990a8a54b01cd5bdd64b4a3a95f6f85d058/images/illustration-hero.svg");
+    background-size: contain;
+    border-radius: 10px 10px 0 0;
+}
+
+.content {
+    margin: 20px 40px;
+}
+
+.tickit {
+    background-color: rgb(237, 241, 245);
+    margin: 10px 30px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.buy {
+    margin: 20px 200px 20px 10px;
+    display: flex;
+}
+
+.logo {
+    font-size: 30px;
+    margin: 0 10px;
+    color: green;
+}
+
+.change {
+    margin: 25px -70px;
+}
+
+.change a {
+    color: blue;
+}
+
+.pay {
+    background-color: rgb(104, 174, 231);
+    margin: 35px 30px 10px 30px;
+    border-radius: 10px;
+    padding: 15px;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(40, 74, 138);
+    -moz-box-shadow: 0 8px 6px -6px rgb(55, 93, 143);
+    box-shadow: 0 8px 6px -6px rgb(54, 56, 141);
+}
+
+.pay h3 {
+    color: white;
+}
+
+.cancel {
+    background-color: rgb(213, 223, 230);
+    margin: 0 30px 10px 30px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.cancel h3 {
+    color: rgb(73, 82, 88);
+}
+
+.choose a {
+    text-decoration: none;
+}
