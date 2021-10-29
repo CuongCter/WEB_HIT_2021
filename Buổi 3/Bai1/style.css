@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(193, 205, 233);
+}
+
+.h {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.box {
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+}
+
+.t {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.z {
+    margin-left: 10px;
+}
+
+.z .ngang {
+    display: flex;
+}
+
+.doc {
+    display: flex;
+    justify-content: flex-end;
+}

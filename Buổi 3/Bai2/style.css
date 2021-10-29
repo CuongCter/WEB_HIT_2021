@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(226, 247, 235);
+}
+
+.main {
+    border: 0.5px solid wheat;
+    width: 70vw;
+    height: 90vh;
+    background-color: white;
+}
+
+.page {
+    padding: 20px 100px;
+}
+
+
+/* header */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    margin-top: 10px;
+}
+
+.do {
+    display: flex;
+}
+
+.do i {
+    margin-right: 10px;
+}
+
+.about ul {
+    display: flex;
+}
+
+li {
+    margin: 0 15px;
+}
+
+.nav {
+    list-style-type: none;
+    position: relative;
+}
+
+.talk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 45px;
+    width: 100px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: -14px;
+}
+
+.content {
+    display: flex;
+    flex-basis: 50%;
+    margin-top: 20px;
+}
+
+.idea {
+    padding: 10px 10px 10px 0;
+}
+
+.put {
+    display: flex;
+    margin-top: 40px;
+}
+
+.idea h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.idea .lorem {
+    padding: 0 100px 0 0;
+}
+
+.get {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+}
+
+.get p {
+    color: white;
+}
+
+.get:hover {
+    opacity: 0.7;
+}
+
+.learn:hover {
+    opacity: 0.5;
+}
+
+.learn {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+.avt {
+    margin-top: 10px;
+    height: 290px;
+    width: 648px;
+    background-image: url("https://storage.googleapis.com/assets-thumb.cavanimages.com/110031/110031_main.jpg");
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    border-radius: 100px 0px 50px 50px;
+    background-position: center;
+}
+
+.footer {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Meet {
+    width: 200px;
+    height: 200px;
+    flex-basis: 25%;
+}
+
+.Meet p {
+    margin-top: 10px;
+    padding: 0 10px 0 0;
+}
+
+.person {
+    width: 100px;
+    height: 100px;
+    border: blanchedalmond 1px solid;
+    border-radius: 10px;
+}
+
+.a {
+    background-image: url("https://scontent.fhph1-3.fna.fbcdn.net/v/t1.6435-9/229848547_814435885861169_4907885162730943741_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=174925&_nc_ohc=4nvYj2PCUKUAX9tZjld&_nc_ht=scontent.fhph1-3.fna&oh=bc077661eeb646eec7bd3df03ad8d835&oe=619F683D");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.b {
+    background-image: url("https://scontent.fhph1-2.fna.fbcdn.net/v/t39.30808-6/218888065_5789827601087185_4768068331293142426_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=DUn7O4b7fh0AX95d-cg&_nc_ht=scontent.fhph1-2.fna&oh=7d177995b60a2f65873da6aa0923870c&oe=61804472");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.c {
+    background-image: url("https://scontent.fhph1-3.fna.fbcdn.net/v/t1.6435-9/117300874_155185189527927_7118775977231925677_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=174925&_nc_ohc=VAfwxCtf6fcAX8znc5H&_nc_ht=scontent.fhph1-3.fna&oh=3368ac0db49ee81c560231e3bc40a6b9&oe=61A09566");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.d {
+    background-image: url("https://scontent.fhph1-3.fna.fbcdn.net/v/t1.6435-9/232817681_2731798797111982_1397852622069125401_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=SOtgb51Xmj8AX9tM89O&tn=BbijUXVL5OTF9xSe&_nc_ht=scontent.fhph1-3.fna&oh=cd479d0e0c4af0dad7ef2fad32eb3bd0&oe=61A2F018");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
