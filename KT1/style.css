@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    height: 150px;
+    background-color: rgb(125, 204, 142);
+}
+
+#header {
+    background-color: #66FFCC;
+    text-align: center;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav>li:hover>a,
+#nav .subnav li:hover a {
+    color: #fff;
+    background-color: #FFCCCC;
+}
+
+#nav,
+.subnav {
+    list-style-type: none;
+}
+
+#nav>li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav .subnav {
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #66FFCC;
+    box-shadow: 0 0 10px rgba(236, 226, 226, 0.3);
+}
+
+#nav .subnav a {
+    color: #fff;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+
+/*Main*/
+
+#main {
+    display: flex;
+    margin-top: 20px;
+}
+
+#product {
+    border: 1px solid blue;
+    height: 500px;
+    width: 45%;
+    margin-right: 5px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#find {
+    border: blue 1px solid;
+    height: 500px;
+    width: 25%;
+    margin-right: 5px;
+}
+
+#support {
+    border: blue 1px solid;
+    height: 500px;
+    width: 27%;
+}
+
+.box {
+    border: solid 1px blue;
+    height: 230px;
+    width: 170px;
+    margin: 10px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 16px;
+    color: #330066;
+    background-color: #66FF66;
+}
+
+.box img {
+    width: 100%;
+}
+
+.sale {
+    text-decoration: line-through;
+}
+
+#find {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    border: solid 1px blue;
+    height: 240px;
+    width: 330px;
+    margin-bottom: 5px;
+    background-color: greenyellow;
+}
+
+.check {
+    border: solid 1px blue;
+    height: 240px;
+    width: 330px;
+}
+
+.check .head {
+    padding: 5px;
+    height: 50px;
+    background-color: rgb(97, 97, 211);
+}
